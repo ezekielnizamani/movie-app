@@ -5,22 +5,26 @@ function Navbar() {
   return (
     <div className="navbar">
       <div>
-        <Link to="/">My Movies</Link>
+        <Link className="a" to="/">
+          My Movies
+        </Link>
       </div>
       <ul>
         <li>
-          <Link className="link" to="/">
+          <Link className="a" to="/">
             Home
           </Link>
         </li>
         <li>
-          <Link className="link" to="/watched">
+          <Link className="a" to="/watched">
             Watched
           </Link>
         </li>
 
         <li>
-          <Link to="/watchList">Watch list</Link>
+          <Link className="a" to="/watchList">
+            Watch list
+          </Link>
         </li>
       </ul>
     </div>

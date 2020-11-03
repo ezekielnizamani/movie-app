@@ -1,9 +1,9 @@
 import React from "react";
-
+import Search from "../../components/Search/Search";
 function HomePage() {
   return (
-    <div>
-      <h1>Home page</h1>
+    <div style={{ textAlign: "center" }}>
+      <Search />
     </div>
   );
 }

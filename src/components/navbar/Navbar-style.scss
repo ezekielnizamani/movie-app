@@ -1,28 +1,25 @@
 .navbar {
-  background-color: #032541;
-  padding: 0.6rem 2rem;
+  background-color: #09020f;
+  padding: 0.6em 2em;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  a {
-    color: #fff;
-    text-decoration: none;
-  }
-
   ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
 
     li {
-      padding: 0.6rem;
-      a {
-        text-decoration: none;
-        color: #fff;
-      }
+      padding: 0.6em;
+
       &:hover {
         background-color: #09020f;
       }
     }
   }
+}
+
+.a {
+  text-decoration: none;
+  color: #fff;
 }

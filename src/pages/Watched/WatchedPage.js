@@ -1,6 +1,6 @@
 import React from "react";
 
-function Watched() {
+function WatchedPage() {
   return (
     <div>
       <h1>Watched</h1>
@@ -8,4 +8,4 @@ function Watched() {
   );
 }
 
-export default Watched;
+export default WatchedPage;
