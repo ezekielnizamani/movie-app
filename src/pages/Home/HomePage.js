@@ -1,10 +1,12 @@
 import React from "react";
 import Search from "../../components/Search/Search";
+import MoviesList from "../../components/moviesList/MoviesList";
 
 function HomePage() {
   return (
-    <div style={{ textAlign: "center" }}>
+    <div className="home">
       <Search />
+      <MoviesList />
     </div>
   );
 }

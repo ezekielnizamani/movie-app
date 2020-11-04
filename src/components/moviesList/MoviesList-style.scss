@@ -1,0 +1,26 @@
+.movies {
+  width: 70%;
+  margin: 1em auto;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  .movies-list {
+    &:not(first-child) {
+      margin-top: 5em;
+    }
+
+    .image {
+      width: 300px;
+    }
+    .title {
+      opacity: 0;
+    }
+    &:hover {
+      .title {
+        opacity: 1;
+      }
+    }
+  }
+}
