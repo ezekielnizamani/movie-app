@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import "./Search-style.scss";
-import { MoviesContext } from "../../context/MoviesConetext";
+import { GlobalConetext } from "../../context/GlobalConetext";
 function Search() {
-  const { handleChange } = useContext(MoviesContext);
+  const { handleChange } = useContext(GlobalConetext);
 
   return (
     <div className="serach">

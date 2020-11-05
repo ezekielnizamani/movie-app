@@ -5,19 +5,19 @@ import { Switch, Route } from "react-router-dom";
 import WatchedPage from "./pages/Watched/WatchedPage";
 import WatchListPage from "./pages/WatchList/WatchListPage";
 import HomePage from "./pages/Home/HomePage.js";
-import MoviesContextProvider from "./context/MoviesConetext";
+import GlobalConetextProvider from "./context/GlobalConetext";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <MoviesContextProvider>
+      <GlobalConetextProvider>
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/watched" component={WatchedPage} />
           <Route path="/watchlist" component={WatchListPage} />
         </Switch>
-      </MoviesContextProvider>
+      </GlobalConetextProvider>
     </div>
   );
 }
