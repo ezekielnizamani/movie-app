@@ -1,0 +1,22 @@
+.card-list {
+  width: 70%;
+  list-style: none;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  .btn{
+      padding: .5em 2em;
+      border-radius: 50px;
+      background-color: #032541;
+      border:none;
+      text-transform: uppercase;
+      color: #fff;
+        &:not(last-child){
+            margin-right: 1.5em;
+        }
+      &:hover{
+            box-shadow: 4px 4px 50px #032541, 0px 0px 20px #032541, 0px 0px 20px #032541, 0px 0px 20px #032541;
+      }
+  }
+}

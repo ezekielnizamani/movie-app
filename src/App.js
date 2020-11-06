@@ -2,9 +2,9 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/navbar/Navbar";
 import { Switch, Route } from "react-router-dom";
-import WatchedPage from "./pages/Watched/WatchedPage";
-import WatchListPage from "./pages/WatchList/WatchListPage";
-import HomePage from "./pages/Home/HomePage.js";
+import Add from "./components/add/Add";
+import watchList from "./components/watchList/WatchList";
+import watched from "./components/watched/Watched";
 import GlobalConetextProvider from "./context/GlobalConetext";
 
 function App() {
@@ -13,9 +13,9 @@ function App() {
       <Navbar />
       <GlobalConetextProvider>
         <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Route path="/watched" component={WatchedPage} />
-          <Route path="/watchlist" component={WatchListPage} />
+          <Route exact path="/" component={Add} />
+          <Route path="/watched" component={watched} />
+          <Route path="/watchlist" component={watchList} />
         </Switch>
       </GlobalConetextProvider>
     </div>
