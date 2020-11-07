@@ -15,7 +15,7 @@ const AppReducer = (state, action) => {
         watched: [action.payload, ...state.watched],
       };
     case "REMOVE_FROM_WATCHLIST":
-      console.log(state);
+    
       return {
         ...state,
         watchList: state.watchList.filter(
