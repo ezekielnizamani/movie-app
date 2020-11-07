@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ezekielnizamani/movie-app/static/css/main.5e0d3624.chunk.css",
+    "main.js": "/ezekielnizamani/movie-app/static/js/main.1c48f72f.chunk.js",
+    "main.js.map": "/ezekielnizamani/movie-app/static/js/main.1c48f72f.chunk.js.map",
+    "runtime-main.js": "/ezekielnizamani/movie-app/static/js/runtime-main.af15a0e3.js",
+    "runtime-main.js.map": "/ezekielnizamani/movie-app/static/js/runtime-main.af15a0e3.js.map",
+    "static/js/2.e68cf0bb.chunk.js": "/ezekielnizamani/movie-app/static/js/2.e68cf0bb.chunk.js",
+    "static/js/2.e68cf0bb.chunk.js.map": "/ezekielnizamani/movie-app/static/js/2.e68cf0bb.chunk.js.map",
+    "index.html": "/ezekielnizamani/movie-app/index.html",
+    "static/css/main.5e0d3624.chunk.css.map": "/ezekielnizamani/movie-app/static/css/main.5e0d3624.chunk.css.map",
+    "static/js/2.e68cf0bb.chunk.js.LICENSE.txt": "/ezekielnizamani/movie-app/static/js/2.e68cf0bb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af15a0e3.js",
+    "static/js/2.e68cf0bb.chunk.js",
+    "static/css/main.5e0d3624.chunk.css",
+    "static/js/main.1c48f72f.chunk.js"
+  ]
+}
